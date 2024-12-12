@@ -256,78 +256,7 @@
             "whatsapp": "+55 21 92345-9999",
             "usuarioId": 7
         }
-    ],
-    "servicos": [
-        {
-            "id": 1,
-            "nomeServico": "Manutenção de Telhado",
-            "descricaoServico": "Inspeção e reparo de telhado",
-            "valorServicoEstimado": 1500.00,
-            "custoOperacional": 500.00,
-            "percentualLucro": 20.00,
-            "tipoServico": "RESIDENCIAL",
-            "unidadeMedidaServico": "metro quadrado"
-        },
-        {
-            "id": 2,
-            "nomeServico": "Limpeza de Piscina",
-            "descricaoServico": "Limpeza semanal e manutenção",
-            "valorServicoEstimado": 200.00,
-            "custoOperacional": 50.00,
-            "percentualLucro": 15.00,
-            "tipoServico": "RESIDENCIAL",
-            "unidadeMedidaServico": "unidade"
-        },
-        {
-            "id": 3,
-            "nomeServico": "Instalação de Ar Condicionado",
-            "descricaoServico": "Instalação e configuração de sistema de ar condicionado",
-            "valorServicoEstimado": 1200.00,
-            "custoOperacional": 400.00,
-            "percentualLucro": 25.00,
-            "tipoServico": "COMERCIAL",
-            "unidadeMedidaServico": "mês"
-        },
-        {
-            "id": 4,
-            "nomeServico": "Reparação de Portão Eletrônico",
-            "descricaoServico": "Reparação de sistema de portão eletrônico",
-            "valorServicoEstimado": 800.00,
-            "custoOperacional": 300.00,
-            "percentualLucro": 18.00,
-            "tipoServico": "RESIDENCIAL",
-            "unidadeMedidaServico": "hora"
-        },
-        {
-            "id": 5,
-            "nomeServico": "Pintura de Parede",
-            "descricaoServico": "Pintura interna ou externa de paredes",
-            "valorServicoEstimado": 1000.00,
-            "custoOperacional": 350.00,
-            "percentualLucro": 22.00,
-            "tipoServico": "RESIDENCIAL",
-            "unidadeMedidaServico": "dia"
-        },
-        {
-            "id": 6,
-            "nomeServico": "Instalação de Sistema de Câmeras",
-            "descricaoServico": "Instalação e configuração de sistema de câmeras de segurança",
-            "valorServicoEstimado": 1500.00,
-            "custoOperacional": 600.00,
-            "percentualLucro": 28.00,
-            "tipoServico": "COMERCIAL",
-            "unidadeMedidaServico": "ano"
-        },
-        {
-            "id": 7,
-            "nomeServico": "Manutenção de Jardim",
-            "descricaoServico": "Cuidados periódicos com jardim e paisagismo",
-            "valorServicoEstimado": 400.00,
-            "custoOperacional": 100.00,
-            "percentualLucro": 30.00,
-            "tipoServico": "RESIDENCIAL",
-            "unidadeMedidaServico": "dia"
-        }
     ]
+
  
 }
