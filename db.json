@@ -1,0 +1,333 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "username": "joaosilva",
+            "email": "joao.silva@example.com",
+            "senha": "hashed_password_1",
+            "grupoPermissao": "funcionario",
+            "dataRegistro": "2024-01-01T10:00:00",
+            "dataAtualizacao": "2024-11-01T12:00:00",
+            "dataUltimoAcesso": "2024-11-18T14:30:00"
+        },
+        {
+            "id": 2,
+            "username": "mariaoliveira",
+            "email": "maria.oliveira@example.com",
+            "senha": "hashed_password_2",
+            "grupoPermissao": "funcionario",
+            "dataRegistro": "2023-05-10T09:15:00",
+            "dataAtualizacao": "2024-10-10T18:00:00",
+            "dataUltimoAcesso": "2024-11-17T20:45:00"
+        },
+        {
+            "id": 3,
+            "username": "carlos_santos",
+            "email": "carlos.santos@example.com",
+            "senha": "hashed_password_3",
+            "grupoPermissao": "funcionario",
+            "dataRegistro": "2024-02-20T08:00:00",
+            "dataAtualizacao": "2024-11-01T08:30:00",
+            "dataUltimoAcesso": "2024-11-18T09:15:00"
+        },
+        {
+            "id": 4,
+            "username": "ana_paula",
+            "email": "ana.paula@example.com",
+            "senha": "hashed_password_4",
+            "grupoPermissao": "funcionario",
+            "dataRegistro": "2023-12-01T15:00:00",
+            "dataAtualizacao": "2024-10-30T16:00:00",
+            "dataUltimoAcesso": "2024-11-18T11:45:00"
+        },
+        {
+            "id": 5,
+            "username": "rafael_lima",
+            "email": "rafael.lima@example.com",
+            "senha": "hashed_password_5",
+            "grupoPermissao": "funcionario",
+            "dataRegistro": "2023-07-15T14:00:00",
+            "dataAtualizacao": "2024-10-25T17:00:00",
+            "dataUltimoAcesso": "2024-11-17T13:45:00"
+        },
+        {
+            "id": 6,
+            "username": "patricia_souza",
+            "email": "patricia.souza@example.com",
+            "senha": "hashed_password_6",
+            "grupoPermissao": "cliente",
+            "dataRegistro": "2024-06-25T09:30:00",
+            "dataAtualizacao": "2024-10-28T10:00:00",
+            "dataUltimoAcesso": "2024-11-19T07:30:00"
+        },
+        {
+            "id": 7,
+            "username": "lucas_martins",
+            "email": "lucas.martins@example.com",
+            "senha": "hashed_password_7",
+            "grupoPermissao": "cliente",
+            "dataRegistro": "2024-03-10T11:45:00",
+            "dataAtualizacao": "2024-11-01T13:00:00",
+            "dataUltimoAcesso": "2024-11-18T18:30:00"
+        }
+    ],
+    "enderecos": [
+        {
+            "id": 1,
+            "tipoEndereco": "RESIDENCIAL",
+            "enderecoPadrao": true,
+            "logradouro": "Rua das Flores",
+            "numero": 123,
+            "complemento": "Apto 45",
+            "bairro": "Centro",
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ",
+            "pais": "Brasil",
+            "cep": "20000-000",
+            "apelidoEndereco": "Casa",
+            "usuarioId": 1
+        },
+        {
+            "id": 2,
+            "tipoEndereco": "COMERCIAL",
+            "enderecoPadrao": false,
+            "logradouro": "Avenida Paulista",
+            "numero": 456,
+            "complemento": "Sala 101",
+            "bairro": "Bela Vista",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "pais": "Brasil",
+            "cep": "01310-000",
+            "apelidoEndereco": "Escritório",
+            "usuarioId": 2
+        },
+        {
+            "id": 3,
+            "tipoEndereco": "RESIDENCIAL",
+            "enderecoPadrao": true,
+            "logradouro": "Rua XV de Novembro",
+            "numero": 789,
+            "complemento": "Casa",
+            "bairro": "Centro",
+            "cidade": "Curitiba",
+            "estado": "PR",
+            "pais": "Brasil",
+            "cep": "80000-000",
+            "apelidoEndereco": "Lar",
+            "usuarioId": 3
+        },
+        {
+            "id": 4,
+            "tipoEndereco": "RESIDENCIAL",
+            "enderecoPadrao": true,
+            "logradouro": "Rua do Comércio",
+            "numero": 101,
+            "complemento": "",
+            "bairro": "Centro",
+            "cidade": "Porto Alegre",
+            "estado": "RS",
+            "pais": "Brasil",
+            "cep": "90000-000",
+            "apelidoEndereco": "Residência",
+            "usuarioId": 4
+        },
+        {
+            "id": 5,
+            "tipoEndereco": "COMERCIAL",
+            "enderecoPadrao": false,
+            "logradouro": "Rua da República",
+            "numero": 121,
+            "complemento": "Andar 2",
+            "bairro": "República",
+            "cidade": "Salvador",
+            "estado": "BA",
+            "pais": "Brasil",
+            "cep": "40000-000",
+            "apelidoEndereco": "Trabalho",
+            "usuarioId": 5
+        },
+        {
+            "id": 6,
+            "tipoEndereco": "RESIDENCIAL",
+            "enderecoPadrao": true,
+            "logradouro": "Avenida Central",
+            "numero": 55,
+            "complemento": "Bloco B",
+            "bairro": "Centro",
+            "cidade": "Brasília",
+            "estado": "DF",
+            "pais": "Brasil",
+            "cep": "70000-000",
+            "apelidoEndereco": "Apartamento",
+            "usuarioId": 6
+        },
+        {
+            "id": 7,
+            "tipoEndereco": "COMERCIAL",
+            "enderecoPadrao": false,
+            "logradouro": "Rua das Palmeiras",
+            "numero": 99,
+            "complemento": "Sala 5",
+            "bairro": "Jardins",
+            "cidade": "Campinas",
+            "estado": "SP",
+            "pais": "Brasil",
+            "cep": "13000-000",
+            "apelidoEndereco": "Empresa",
+            "usuarioId": 7
+        }
+    ],
+    "funcionarios": [
+        {
+            "id": 1,
+            "cpf": "111.111.111-11",
+            "nome": "João",
+            "sobrenome": "Silva",
+            "dataNascimento": "1985-03-15",
+            "telefone": "+55 21 99999-1111",
+            "whatsapp": "+55 21 99999-1111",
+            "tipoFuncionario": "admin",
+            "usuarioId": 1
+        },
+        {
+            "id": 2,
+            "cpf": "222.222.222-22",
+            "nome": "Maria",
+            "sobrenome": "Oliveira",
+            "dataNascimento": "1990-07-20",
+            "telefone": "+55 11 98888-2222",
+            "whatsapp": "+55 11 98888-2222",
+            "tipoFuncionario": "tecnico",
+            "usuarioId": 2
+        },
+        {
+            "id": 3,
+            "cpf": "333.333.333-33",
+            "nome": "Carlos",
+            "sobrenome": "Santos",
+            "dataNascimento": "1982-12-05",
+            "telefone": "+55 41 97777-3333",
+            "whatsapp": "+55 41 97777-3333",
+            "tipoFuncionario": "tecnico",
+            "usuarioId": 3
+        },
+        {
+            "id": 4,
+            "cpf": "444.444.444-44",
+            "nome": "Ana Paula",
+            "sobrenome": "Pereira",
+            "dataNascimento": "1995-06-10",
+            "telefone": "+55 51 96666-4444",
+            "whatsapp": "+55 51 96666-4444",
+            "tipoFuncionario": "gerente",
+            "usuarioId": 4
+        },
+        {
+            "id": 5,
+            "cpf": "555.555.555-55",
+            "nome": "Rafael",
+            "sobrenome": "Lima",
+            "dataNascimento": "1988-01-25",
+            "telefone": "+55 71 95555-5555",
+            "whatsapp": "+55 71 95555-5555",
+            "tipoFuncionario": "gerente",
+            "usuarioId": 5
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "cpf": "888.888.888-88",
+            "nome": "Patricia",
+            "sobrenome": "Souza",
+            "dataNascimento": "1980-05-12",
+            "telefone": "+55 11 91234-8888",
+            "whatsapp": "+55 11 91234-8888",
+            "usuarioId": 6
+        },
+        {
+            "id": 2,
+            "cpf": "999.999.999-99",
+            "nome": "Lucas",
+            "sobrenome": "Martins",
+            "dataNascimento": "1994-11-22",
+            "telefone": "+55 21 92345-9999",
+            "whatsapp": "+55 21 92345-9999",
+            "usuarioId": 7
+        }
+    ],
+    "servicos": [
+        {
+            "id": 1,
+            "nomeServico": "Manutenção de Telhado",
+            "descricaoServico": "Inspeção e reparo de telhado",
+            "valorServicoEstimado": 1500.00,
+            "custoOperacional": 500.00,
+            "percentualLucro": 20.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "metro quadrado"
+        },
+        {
+            "id": 2,
+            "nomeServico": "Limpeza de Piscina",
+            "descricaoServico": "Limpeza semanal e manutenção",
+            "valorServicoEstimado": 200.00,
+            "custoOperacional": 50.00,
+            "percentualLucro": 15.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "unidade"
+        },
+        {
+            "id": 3,
+            "nomeServico": "Instalação de Ar Condicionado",
+            "descricaoServico": "Instalação e configuração de sistema de ar condicionado",
+            "valorServicoEstimado": 1200.00,
+            "custoOperacional": 400.00,
+            "percentualLucro": 25.00,
+            "tipoServico": "COMERCIAL",
+            "unidadeMedidaServico": "mês"
+        },
+        {
+            "id": 4,
+            "nomeServico": "Reparação de Portão Eletrônico",
+            "descricaoServico": "Reparação de sistema de portão eletrônico",
+            "valorServicoEstimado": 800.00,
+            "custoOperacional": 300.00,
+            "percentualLucro": 18.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "hora"
+        },
+        {
+            "id": 5,
+            "nomeServico": "Pintura de Parede",
+            "descricaoServico": "Pintura interna ou externa de paredes",
+            "valorServicoEstimado": 1000.00,
+            "custoOperacional": 350.00,
+            "percentualLucro": 22.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "dia"
+        },
+        {
+            "id": 6,
+            "nomeServico": "Instalação de Sistema de Câmeras",
+            "descricaoServico": "Instalação e configuração de sistema de câmeras de segurança",
+            "valorServicoEstimado": 1500.00,
+            "custoOperacional": 600.00,
+            "percentualLucro": 28.00,
+            "tipoServico": "COMERCIAL",
+            "unidadeMedidaServico": "ano"
+        },
+        {
+            "id": 7,
+            "nomeServico": "Manutenção de Jardim",
+            "descricaoServico": "Cuidados periódicos com jardim e paisagismo",
+            "valorServicoEstimado": 400.00,
+            "custoOperacional": 100.00,
+            "percentualLucro": 30.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "dia"
+        }
+    ]
+ 
+}
