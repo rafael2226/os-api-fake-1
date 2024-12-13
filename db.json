@@ -15,7 +15,7 @@
             "username": "maria.oliveira",
             "email": "maria.oliveira@example.com",
             "senha": "hashed_password_2",
-            "grupoPermissao": "funcionario",
+            "grupoPermissao": "cliente",
             "dataRegistro": "2023-05-10T09:15:00",
             "dataAtualizacao": "2024-10-10T18:00:00",
             "dataUltimoAcesso": "2024-11-17T20:45:00"
@@ -25,7 +25,7 @@
             "username": "carlos.santos",
             "email": "carlos.santos@example.com",
             "senha": "hashed_password_3",
-            "grupoPermissao": "funcionario",
+            "grupoPermissao": "cliente",
             "dataRegistro": "2024-02-20T08:00:00",
             "dataAtualizacao": "2024-11-01T08:30:00",
             "dataUltimoAcesso": "2024-11-18T09:15:00"
@@ -103,7 +103,7 @@
             "enderecoPadrao": true,
             "logradouro": "Rua do Comércio",
             "numero": 101,
-            "complemento": "apt 2",
+            "complemento": "Apt 2",
             "bairro": "Centro",
             "cidade": "Porto Alegre",
             "estado": "RS",
