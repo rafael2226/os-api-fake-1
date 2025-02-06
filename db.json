@@ -191,7 +191,7 @@
             "cpf": "888.888.888-88",
             "nome": "Rafael",
             "sobrenome": "Lima",
-            "dataNascimento": "1980-05-12",
+            "dataNascimento": "12-05-1980",
             "telefone": "+55 11 91234-8888",
             "whatsapp": "+55 11 91234-8888",
             "usuarioId": 5
@@ -201,7 +201,7 @@
             "cpf": "999.999.999-99",
             "nome": "Ana Paula",
             "sobrenome": "Pereira",
-            "dataNascimento": "1994-11-22",
+            "dataNascimento": "22-11-1994",
             "telefone": "+55 21 92345-9999",
             "whatsapp": "+55 21 92345-9999",
             "usuarioId": 4
