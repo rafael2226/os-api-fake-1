@@ -32,8 +32,8 @@
         },
         {
             "id": 4,
-            "username": "ana.paula",
-            "email": "ana.paula@example.com",
+            "username": "fernanda.leite",
+            "email": "fernanda.leite@example.com",
             "senha": "hashed_password_4",
             "grupoPermissao": "funcionario",
             "dataRegistro": "01-01-2024 às 15:00:00",
@@ -165,8 +165,8 @@
         {
             "id": 4,
             "cpf": "444.444.444-44",
-            "nome": "Ana Paula",
-            "sobrenome": "Pereira",
+            "nome": "Fernanda",
+            "sobrenome": "Leite",
             "dataNascimento": "10-06-1995",
             "telefone": "(51) 96666-4444",
             "whatsapp": "+5551966664444",
@@ -199,8 +199,8 @@
         {
             "id": 2,
             "cpf": "999.999.999-99",
-            "nome": "Ana Paula",
-            "sobrenome": "Pereira",
+            "nome": "Fernanda",
+            "sobrenome": "Leite",
             "dataNascimento": "22-11-1994",
             "telefone": "+55 21 92345-9999",
             "whatsapp": "+55 21 92345-9999",
